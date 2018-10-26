@@ -1,0 +1,85 @@
+.Menu{
+  grid-area: r;
+  background:white;
+  overflow: scroll;
+	outline: var(--outline);
+
+}
+
+.ProjectHeader{
+	height:80px;
+	outline: var(--outline);
+	padding-bottom: calc(2 * var(--unit))
+}
+
+.MenuHeader{
+	font-size:14px;
+  line-height:calc(4 * var(--unit));
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+
+	padding-left: calc(2 * var(--unit))
+}
+
+.MenuHeader:hover{
+	color : var(--color2);
+	cursor: pointer;
+	background-color: #eee;
+}
+
+.SubMenu{
+	padding-bottom: calc(0 * var(--unit));
+}
+
+.react-sanfona{
+		/* background:red; */
+}
+
+.react-sanfona-item{
+	/* background:red; */
+
+}
+
+.react-sanfona-item-expanded{
+	/* color:Red; */
+}
+
+.react-sanfona-item-title{
+
+}
+
+
+.NavLink > a{
+	display: block;
+	text-decoration: none;
+  font-family:  var(--font2);
+	color: var(--textcolor);
+  font-weight:700px;
+	line-height:calc(4 * var(--unit));
+  font-size:13px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+	padding-left: calc(3 * var(--unit));
+	list-style:none;
+}
+
+.NavLink > a:hover{
+	color : var(--color2);
+	background-color: #eee;
+}
+
+.NavLinkActive{
+	color : var(--color2);
+	background-color: #eee;
+}
+
+.nav-tabs{
+	padding:0;
+}
+.tab-pane{
+	margin-top: calc(2 * var(--unit));
+	/* background:red; */
+}
+.TabHeader{
+	padding-left:calc(2 * var(--unit));
+}

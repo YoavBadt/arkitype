@@ -1,0 +1,46 @@
+[
+	{
+		"name": "menu1",
+		"id": 1,
+		"isOpen": true,
+		"children": [
+			{
+				"name": "submenu1",
+				"id": 1,
+				"isOpen": true,
+				"children": [
+					{
+						"name": "item1-1",
+						"id": 1
+					},
+					{
+						"name": "item1-2",
+						"id": 2
+					}
+				]
+			},
+			{
+				"name": "submenu2",
+				"id": 2,
+				"isOpen": true,
+				"children": [
+					{
+						"name": "item2-1",
+						"id": 1
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "menu2",
+		"id": 2,
+		"isOpen": true,
+		"children": [
+			{
+				"name": "item3-1",
+				"id": 1
+			}
+		]
+	}
+]

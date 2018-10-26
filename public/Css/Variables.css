@@ -1,0 +1,11 @@
+:root {
+	--textcolor: rgba(100,100,100,1);
+  --font1: 'Miriam Libre';
+	--font2: 'Roboto';
+	--font3: 'Source Code Pro';
+  --color2: rgba(0,0,255,1);
+  --color3: rgba(0,0,0,0.5);
+	--grey: #aaa;
+  --unit: 10px;
+  --outline: 1px solid lightgrey;
+}

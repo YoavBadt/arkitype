@@ -4,8 +4,13 @@
   "private": true,
   "dependencies": {
     "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "react-sortable-tree": "^2.3.0",
+    "react-sortable-tree-theme-file-explorer": "^2.0.0",
+    "react-sortable-tree-theme-minimal": "0.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-sanfona": "^1.4.0"
+  }
 }

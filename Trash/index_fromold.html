@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <style type='text/css' id="fontImportTag"></style>
+  <style type='text/css' id="magnetTag"></style>
+  <!-- <style type='text/css' id="projectStyles"></style> -->
+</head>
+<body>
+
+<div class="container1">
+  <div class="menu1"><h4>Screen Size</h4>
+    <div class="tabs">
+      <button class="tablinks active" onclick="tabs(event,0)">480</button>
+      <button class="tablinks" onclick="tabs(event,1)">768</button>
+      <button class="tablinks" onclick="tabs(event,2)">1024</button>
+      <button class="tablinks" onclick="tabs(event,3)">1980</button>
+    </div>
+
+    <div class="controllers">
+      <div class="inputController">
+        <h4>Base Fontsize</h4>
+        <input value='0' class="input1" type="number" step="1" id="fontSizeInput" min="2" onclick="baseFontSizeInputClick()" />
+      </div>
+      <div class="inputController">
+        <h4>Base Line Height</h4>
+        <input value='0' class="input1" type="number" step="2" id="baseLineInput" min="2" onclick="baseLineHeightInputClick()" />
+      </div>
+      <div class="inputController">
+        <label>Base Line Magnet</label>
+        <label class="switch">
+        <input type="checkbox" id="baseLineMagentCheck" unchecked onclick="baseLineMagentCheck()"/>
+        <span class="slider"></span>
+        </label>
+      </div>
+      <div class="inputController">
+        <h4>Mod Scale</h4>
+        <input value='0' class="input1" type="number" step="0.1" id="modScaleInput" min="1.1" onclick="modScaleInputClick()" />
+      </div>
+      <div class="dropdownController">
+        <h4>Change All Typefaces</h4>
+        <select onchange="changeFont()" id="fontSelect" >
+        </select>
+      </div>
+      <div class="inputController">
+        <label>LineBox</label>
+        <label class="switch">
+        <input type="checkbox" id="hideLineBox" checked onclick="hideLineBox()"/>
+        <span class="slider"></span>
+        </label>
+      </div>
+      <div class="controller">
+        <label>Base Sizing Unit</label>
+        <input value='4' class="input1" type="number" step="2" id="baseUnitInput" min="4" onclick="baseUnitSizeInputClick()" >
+      </div>
+
+    </div>
+
+  </div>
+  <div id="content" class="content1">
+    <ul class="nav nav-pills" style="width:100%">
+      <li class="nav-item">
+        <a class="nav-link nav-item" href="#" onclick="tabs2(event,0)">code</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-item active" href="#" onclick="tabs2(event,1)">styles</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-item" href="#" onclick="tabs2(event,2)">example</a>
+    </ul>
+    <div class="contentBox" id="codeWindow" style="display:none;">
+      <h4>css code</h4>
+      <div class="code" id='code'></div>
+    </div>
+    <div class="contentBox" id="textStyles" style="display:block;">
+      <div id="textStyles-before" style="display:none;"></div>
+      <h4>text styles</h4>
+    </div>
+    <div class="contentBox" id="example" style="display:none;">
+      <h1 class="h1-style-1">example</h1>
+      <h2 class="h2-style-1">example</h2>
+      <h3 class="h3-style-1">example</h3>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

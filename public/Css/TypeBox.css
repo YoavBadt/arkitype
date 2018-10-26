@@ -1,0 +1,103 @@
+.TypeBox{
+  width:800px;
+  outline : 1px var(--grey) solid;
+  background : white;
+  padding: var(--unit);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 20px;
+  grid-auto-rows: auto 20px 40px;
+  padding:20px;
+}
+
+.TextStyleBox{
+
+}
+
+.innerTextBox{
+  z-index:100;
+  outline : 1px solid blue;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  box-sizing: border-box;
+}
+
+.LineBox{
+  position:relative;
+  box-sizing: border-box;
+  z-index:0;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.Metrics{
+  outline : 1px var(--grey) solid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.TypeBoxControlls{
+  /* outline : 1px var(--grey) solid; */
+  /* background:Red; */
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 10px;
+  /* grid-auto-columns: 80px; */
+}
+
+.ControllBox{
+  border : 1px grey solid;
+  border-radius: 2px;
+  background: #eee;
+  padding:5px;
+  display:grid;
+  grid-template-rows: 10px 20px;
+  grid-row-gap: 5px;
+}
+.ControllBox > label{
+  grid-row-start: 1;
+  font-size: 10px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.textAlign{
+  height:20px;
+  padding:0;
+  margin:0;
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+
+.radio{
+  padding:0;
+  margin:0;
+  width:20px;
+  height:20px;
+
+}
+.radio > label {
+  display:block;
+  width:100%;
+  padding:0;
+  margin:0;
+}
+input[type=radio]{
+  padding:0;
+  margin:0;
+  -webkit-appearance: none;
+  top:0;
+  width:20px;
+  height:20px;
+  border : 1px grey solid;
+  background:lightgrey;
+}

@@ -1,0 +1,11 @@
+https://www.kirupa.com/react/creating_single_page_app_react_using_react_router.htm
+https://codepen.io/yoavbadt/pen/QZxRex my fork on the grid controller thing
+https://reacttraining.com/react-router/web/api/HashRouter something about the HashRouter
+https://react.rocks/example/react-sanfona the accordion
+https://github.com/daviferreira/react-sanfona the accordion
+https://react.rocks/example/react-bootstrap-treeview tree thing I didnt use
+https://react-bootstrap.github.io/components/well/ bootstrap componenets
+https://www.npmjs.com/package/react-sortable-tree sortable tree
+https://medium.freecodecamp.org/where-do-i-belong-a-guide-to-saving-react-component-data-in-state-store-static-and-this-c49b335e2a00
+https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17 passing data
+https://reactjs.org/docs/forms.html setting state and stuff

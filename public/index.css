@@ -1,0 +1,39 @@
+@import './css/Imports.css';
+@import './css/Variables.css';
+@import './css/Reset.css';
+@import './css/Typography.css';
+@import './css/Menu.css';
+/* @import './css/DOMtree.css'; */
+@import './css/TypeBox.css';
+@import './css/input-number.css';
+
+body {
+  margin: 0;
+  /* padding: 10px; */
+  background: black;
+}
+
+.Frame{
+  height: 100vh;
+  box-sizing: border-box;
+	background:#eee;
+  /* border-radius: 6px; */
+  overflow: hidden;
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows:     1fr ;
+  grid-template-areas:
+  "r r m m m m m m m m m m ";
+	grid-column-gap: var(--unit);
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Content{
+  grid-area: m;
+  padding:calc(2 * var(--unit));
+  overflow: scroll;
+}
